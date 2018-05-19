@@ -19,10 +19,6 @@ export default class Main extends Component {
     render() {
         return (
             <View style={styles.container} >
-                <View style={styles.logoContainer} >
-                    <Text>Logo</Text>
-                </View>
-                <Text style={styles.titleText}> Login </Text>
                 <View style={styles.formContainer} >
                     {this.drawView()}
                 </View>
@@ -45,13 +41,11 @@ const styles= StyleSheet.create({
 
     },
     titleText: {
+        fontFamily: "raleway-extrabold",
         marginTop:18,
         fontSize:50,
         textAlign:'center',
-        opacity:0.9,
-        color:'#FFF0F5',
-        fontWeight:'bold',
-        textShadowRadius:2
+        color:'#FFF',
     }
 
 })

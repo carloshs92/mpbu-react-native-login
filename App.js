@@ -1,6 +1,6 @@
-import React from 'react';
+xxxxxxximport React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Main from "./containers/Main/Main";
+import Main from "./src/containers/Main/Main";
 import LinearGradient from 'react-native-linear-gradient';
 
 export default class App extends React.Component {

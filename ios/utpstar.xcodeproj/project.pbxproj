@@ -38,6 +38,9 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		16440678409146E09F0CC2A1 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4573E0556BAF4E3BB2BBC813 /* libBVLinearGradient.a */; };
+		71AF612FB56F40C9909FF9F5 /* raleway-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75BA3B3B6C28488796698F57 /* raleway-bold.ttf */; };
+		4797A57A7B034050AFD7D2C0 /* raleway-extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A91AF6F84484875B09619F0 /* raleway-extrabold.ttf */; };
+		7DED58E11ACA4FAABCF60A23 /* raleway-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 327B22E8B4CF4051B701D6AA /* raleway-medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -345,6 +348,9 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		C73483D7A03B4FF1B924B63F /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		4573E0556BAF4E3BB2BBC813 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		75BA3B3B6C28488796698F57 /* raleway-bold.ttf */ = {isa = PBXFileReference; name = "raleway-bold.ttf"; path = "../src/assets/fonts/raleway-bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A91AF6F84484875B09619F0 /* raleway-extrabold.ttf */ = {isa = PBXFileReference; name = "raleway-extrabold.ttf"; path = "../src/assets/fonts/raleway-extrabold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		327B22E8B4CF4051B701D6AA /* raleway-medium.ttf */ = {isa = PBXFileReference; name = "raleway-medium.ttf"; path = "../src/assets/fonts/raleway-medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -582,6 +588,7 @@
 				00E356EF1AD99517003FC87E /* utpstarTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0EC04129175145EAB5A4DBF0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -607,6 +614,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		0EC04129175145EAB5A4DBF0 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				75BA3B3B6C28488796698F57 /* raleway-bold.ttf */,
+				7A91AF6F84484875B09619F0 /* raleway-extrabold.ttf */,
+				327B22E8B4CF4051B701D6AA /* raleway-medium.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1054,6 +1072,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				71AF612FB56F40C9909FF9F5 /* raleway-bold.ttf in Resources */,
+				4797A57A7B034050AFD7D2C0 /* raleway-extrabold.ttf in Resources */,
+				7DED58E11ACA4FAABCF60A23 /* raleway-medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
